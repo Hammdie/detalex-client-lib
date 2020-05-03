@@ -1,14 +1,11 @@
 # Login Service
-
-Clientside processing of sso token handling.  
+Client-side processing of sso token handling.  
 Use service http://usr.detalex.de/ to process user authorisation for you services. 
-
 
 ## install
 ```
 npm i @diemtarh/detalex-client-lib
 ```
-
 
 Use **IUser** interface to cust you payload data.
 ```
@@ -26,4 +23,3 @@ interface IUser {
 npm test
 ```
 Explore '**src/app.spec.ts**' for more understanding.  
-
