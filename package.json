@@ -9,9 +9,12 @@
     "test-dev": "nodemon  -e ts,js --watch src --exec 'npm run build && cd dist && NODE_ENV=test node jasmine.js'",
     "build-dev": "tsc -w",
     "build": "tsc",
-    "publish-patch": "npm version patch && npm publish"
+    "publish-patch": "npm version patch && npm publish --access public"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hammdie/detalex-client-lib.git"
+  },
   "author": "Dietmar Hamm",
   "license": "ISC",
   "dependencies": {
