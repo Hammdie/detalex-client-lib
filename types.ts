@@ -8,5 +8,6 @@ export interface IUser {
 
 export interface ISession {
   user?: IUser;
+  jwt?: string;
   exp: number;
 }
